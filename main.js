@@ -42,6 +42,8 @@ app.whenReady().then(() => {
       width: totalWidth,
       height: totalHeight,
       frame: false,
+      movable: false, // 禁止拖动
+      resizable: false, // 禁止缩放
       webPreferences: {
         nodeIntegration: true,
         contextIsolation: false
